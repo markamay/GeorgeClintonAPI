@@ -1,0 +1,14 @@
+@GeorgeClintonAPI_HostAddress = http://localhost:5157
+
+GET {{GeorgeClintonAPI_HostAddress}}/GeorgeClinton/GetGeorgeClinton
+Accept: application/json
+
+###
+
+GET {{GeorgeClintonAPI_HostAddress}}/GeorgeClinton/GetGeorgeClintonByDateOfBirth?dateOfBirth=1941-07-22
+Accept: application/json
+
+###
+
+GET {{GeorgeClintonAPI_HostAddress}}/GeorgeClinton/GetGeorgeClintonByDateOfBirth?dateOfBirth=1993-02-18
+Accept: application/json

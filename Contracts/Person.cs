@@ -9,4 +9,6 @@ public class Person
     public required string LastName { get; set; }
 
     public required DateOnly DateOfBirth { get; set; }
+
+    public virtual string DisplayName => $"{FirstName} {LastName}";
 }
